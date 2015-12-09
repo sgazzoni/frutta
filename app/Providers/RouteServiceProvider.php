@@ -25,7 +25,10 @@ class RouteServiceProvider extends ServiceProvider
     public function boot(Router $router)
     {
         //
-
+    	// versione modificata
+    	$router->bind('articles', function($id) {
+    		return \App\Article::where('id', $id)->firstOrFail();      
+		});	
         parent::boot($router);
     }
 

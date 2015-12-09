@@ -1,0 +1,1 @@
+{"virtualbox":{"/home/vagrant/frutta":{"type":null,"mount_options":[],"guestpath":"/home/vagrant/frutta","hostpath":"C:/Users/Utente/Documents/GitHub/frutta","disabled":false},"/vagrant":{"guestpath":"/vagrant","hostpath":"C:/Users/Utente/Documents/GitHub/frutta","disabled":false}}}
