@@ -13,7 +13,7 @@ class ArticleRequest extends Request
      */
     public function authorize()
     {
-        return false;
+        return true;
     }
 
     /**
@@ -25,6 +25,14 @@ class ArticleRequest extends Request
     {
         return [
             //
+        		'title' => ['required', 'max:255'],
+        		'body' => ['required', 'max:255'],      	 
+        		'codice_prodotto' => ['required', 'max:15'],        		
+        		'disponibile' => ['required', 'max:1'], 
+        		'prezzo' => ['required', 'max:15'],        		
+
+        		
+        		
         ];
     }
 }
