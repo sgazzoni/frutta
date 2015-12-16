@@ -10,7 +10,9 @@
 	<li>{{$article->body}}</li>
     <li>{{$article->codice_prodotto}}</li>		
     <li>{{$article->disponibile}}</li>    
-	<li>{{$article->prezzo}}</li>    
+	<li>{{$article->prezzo}}</li>
+	<li>{{$article->categoria}}</li>
+    <li>{{$article->immagine}}</li>	    
 	<li>{{$article->id}}</li>
 </ul>
 @stop

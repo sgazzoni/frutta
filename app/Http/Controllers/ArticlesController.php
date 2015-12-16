@@ -46,17 +46,22 @@ class ArticlesController extends Controller
     public function store(ArticleRequest $request)
     {
         $input = $request->all();
-		$articles = Article::create([			
+        
+		$article = Article::create([			
 			'title' => $input['title'],				
 			'body' => $input['body'],
 			'codice_prodotto' => $input['codice_prodotto'],
 			'disponibile' => $input['disponibile'],
-			'prezzo' => $input['prezzo'],						
-		]);		
-	
-
-                      
-        
+			'prezzo' => $input['prezzo'],
+			'categoria' => $input['categoria']
+		]);
+		
+		$imageName = $article->id . '.' . $request->file('immagine')->getClientOriginalExtension();
+		$request->file('immagine')->move(
+			base_path() . '/public/images/catalog/', $imageName
+		);
+		
+		$article->update(['immagine' => $imageName]);
 		
 		if ($request->ajax() || $request->wantsJson()) {
     		return new JsonResponse($article);
@@ -105,7 +110,9 @@ class ArticlesController extends Controller
 			'body' => $input['body'],
 			'codice_prodotto' => $input['codice_prodotto'],
 			'disponibile' => $input['disponibile'],
-  		    'prezzo' => $input['prezzo'],				
+  		    'prezzo' => $input['prezzo'],
+			'categoria' => $input['categoria'],
+			'immagine' => $imageName				
 	
 		
             

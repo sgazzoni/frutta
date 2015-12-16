@@ -7,7 +7,7 @@ New article
 @section('content')
 <h1>New article</h1>
 <hr />
-{!! Form::model($article = new \App\Article, array('action' => 'ArticlesController@index')) !!}
+{!! Form::model($article = new \App\Article, array('action' => 'ArticlesController@index', 'files' => true)) !!}
 	@include('articles.form', ['submitButtonText' => 'Save', 'create' => true])
 {!! Form::close() !!}
 

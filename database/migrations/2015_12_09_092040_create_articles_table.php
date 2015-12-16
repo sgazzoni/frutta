@@ -18,7 +18,9 @@ class CreateArticlesTable extends Migration
             $table->text('body');
             $table->string('codice_prodotto');
             $table->string('disponibile');
-            $table->integer('prezzo');            
+            $table->decimal('prezzo', 5, 2);            
+            $table->string('categoria');
+            $table->string('immagine');            
             $table->timestamps();
         });
     }
