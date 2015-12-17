@@ -1,0 +1,11 @@
+@CHARSET "ISO-8859-1";
+
+
+
+.produtto img {
+	max-width:90%;
+	margin:3px;
+	width:200px;
+	height:200px;
+	
+}

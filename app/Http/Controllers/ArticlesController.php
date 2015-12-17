@@ -105,19 +105,22 @@ class ArticlesController extends Controller
     {
 		$input = $request->all();
 		$article->update([
-				
  			'title' => $input['title'],
 			'body' => $input['body'],
 			'codice_prodotto' => $input['codice_prodotto'],
 			'disponibile' => $input['disponibile'],
   		    'prezzo' => $input['prezzo'],
-			'categoria' => $input['categoria'],
-			'immagine' => $imageName				
-	
-		
-            
+			'categoria' => $input['categoria'],		
         ]);
 		
+		if ($request->file('immagine')) {
+			$imageName = $article->id . '.' . $request->file('immagine')->getClientOriginalExtension();
+			$request->file('immagine')->move(
+				base_path() . '/public/images/catalog/', $imageName
+			);
+			
+			$article->update(['immagine' => $imageName]);
+		}
 		
 		if ($request->ajax() || $request->wantsJson()) {
     		return new JsonResponse($article);

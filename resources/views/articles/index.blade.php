@@ -1,34 +1,51 @@
-@extends('app')
-
-@section('title')
-Index
-@stop
-
-@section('content')
+@extends('app') @section('title') Index @stop
 
 
 
-<h1>Articles</h1>
+
+
+<!-- 
 @if (count($articles))
-<ul>
+
 	@foreach ($articles as $article)
-		<user>
-			<h2><a href="{{action('ArticlesController@show', [$article->id])}}">{{$article->title}}</a><h2>
-			<ul>
-				<h3>{{$article->body}}</h3>
-				<li>{{$article->codice_prodotto}}</li>	
-				<li>{{$article->disponibile}}</li>
-				<li>{{$article->prezzo}}</li>
-				<li>{{$article->categoria}}</li>
-				<li><img {{$article->immagine}}</li>								
-				<li>{{$article->id}}</li>			
-				
-			</ul>
-		</user>
+	<div class="prodotto">
+		<img src="/images/catalog/{{$article->immagine}}" alt="">
+		
+		<h1>
+			<a href="{{action('ArticlesController@show', [$article->id])}}">{{$article->title}}</a>
+		</h1>
+	</div>
+
 	@endforeach
-</ul>
+
 @else
 <p>no articles</p>
-@endif
+@endif 
+ -->
+@section('content')
 
+<div class="row">
+	<div class="box" class="prodotto">
+		<div class="col-lg-12">
+			<hr>
+			<h2 class="intro-text text-center">
+				 <strong>I nostri prodotti</strong>
+			</h2>
+			<hr>
+		</div>
+		@if (count($articles)) @foreach ($articles as $article)
+		<div class="col-xs-2 text-center ">
+			<img class="img-responsive" style="width:200px;
+	height:200px;"
+				src="/images/catalog/{{$article->immagine}}" alt="">
+			<h3>
+				<a href="{{action('ArticlesController@show', [$article->id])}}">{{$article->title}}</a>
+			</h3>
+		</div>
+		@endforeach @else
+		<p>no articles</p>
+		@endif
+		<div class="clearfix"></div>
+	</div>
+</div>
 @stop
