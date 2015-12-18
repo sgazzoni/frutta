@@ -60,7 +60,7 @@
 				<ul class="nav navbar-nav">
 					<li><a href="/">Home</a></li>
 					<li><a href="{{URL::to('articles')}}">Prodotti</a></li>
-					<li><a href="contact.html">Contact</a></li>
+                    <li><a href="{{URL::to('contact')}}">Contact</a></li>
 				</ul>
 			</div>
 			<!-- /.navbar-collapse -->

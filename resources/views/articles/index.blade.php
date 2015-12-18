@@ -35,8 +35,8 @@
 		</div>
 		@if (count($articles)) @foreach ($articles as $article)
 		<div class="col-xs-2 text-center ">
-			<img class="img-responsive" style="width:200px;
-	height:200px;"
+			<img class="img-responsive" style="width:190px;
+	            height:90px;"
 				src="/images/catalog/{{$article->immagine}}" alt="">
 			<h3>
 				<a href="{{action('ArticlesController@show', [$article->id])}}">{{$article->title}}</a>

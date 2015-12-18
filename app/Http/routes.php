@@ -14,5 +14,10 @@
 Route::get('/', function () {
     return view('welcome');
 });
-	// mia modifica
-	Route::resource('articles','ArticlesController');
+
+Route::get('/contact', function () {
+	return view('contact');
+});
+
+// mia modifica
+Route::resource('articles','ArticlesController');
