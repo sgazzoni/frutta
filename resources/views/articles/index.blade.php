@@ -38,9 +38,9 @@
 			<img class="img-responsive" style="width:190px;
 	            height:90px;"
 				src="/images/catalog/{{$article->immagine}}" alt="">
-			<h3>
+			<h3><font color=”blue”><font size="4">
 				<a href="{{action('ArticlesController@show', [$article->id])}}">{{$article->title}}</a>
-			</h3>
+			</font></font></h3>
 		</div>
 		@endforeach @else
 		<p>no articles</p>
