@@ -9,8 +9,8 @@ Benvenuto
             <div class="box">
                 <div class="col-lg-12">
                     <hr>
-                    <h2 class="intro-text text-center">Contact
-                        <strong>business casual</strong>
+                    <h2 class="intro-text text-center">Contatti: 
+                        <strong>La Cesta dei sapori</strong>
                     </h2>
                     <hr>
                 </div>
@@ -19,15 +19,15 @@ Benvenuto
                     <iframe width="100%" height="400" frameborder="0" allowfullscreen src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2862.1259055777446!2d12.33229691466555!3d44.16326442731722!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132cba178fc03de3%3A0x4df5810e8bef2c15!2sVia+Capannaguzzo%2C+23%2C+Cesena+FC!5e0!3m2!1sit!2sit!4v1450430062473"></iframe>
                 </div>
                 <div class="col-md-4">
-                    <p>Phone:
-                        <strong>123.456.7890</strong>
+                    <p>Telefono:
+                        <strong>333.45.98.238</strong>
                     </p>
                     <p>Email:
-                        <strong><a href="mailto:name@example.com">name@example.com</a></strong>
+                        <strong><a href="mailto:stefano.gazzoni@libero.it">stefano.gazzoni@libero.it</a></strong>
                     </p>
-                    <p>Address:
-                        <strong>3481 Melrose Place
-                            <br>Beverly Hills, CA 90210</strong>
+                    <p>Indirizzo:
+                        <strong>Via Capannaguzzo,23
+                            <br>47042 Cesenatico (FC)</strong>
                     </p>
                 </div>
                 <div class="clearfix"></div>

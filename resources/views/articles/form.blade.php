@@ -1,30 +1,30 @@
 <div class="form-group">
-	<font color="blue"><font size="5">	{!! Form::label('title', 'Title') !!}</font></font>
+	<p class="testoform">{!! Form::label('title', 'Title') !!}</p>
 	{!! Form::text('title', null, ['class' => 'form-control']) !!}
 </div>
 <div class="form-group">
-	<font color="blue">	{!! Form::label('body', 'Body') !!}</font>
-	{!! Form::text('body', null, ['class' => 'form-control']) !!}
+	<p class="testoform">	{!! Form::label('body', 'Body') !!}</p>
+		{!! Form::text('body', null, ['class' => 'form-control']) !!}
 </div>
 <div class="form-group">
-	<font color="blue">{!! Form::label('codice_prodotto', 'Codice_prodotto')!!}</font>
+	<p class="testoform">{!! Form::label('codice_prodotto', 'Codice_prodotto')!!}</p>
 	{!! Form::text('codice_prodotto', null, ['class' => 'form-control']) !!}
 </div>
 
 <div class="form-group">
-	<font color="blue">	{!! Form::label('disponibile', 'Disponibile') !!}</font>
+	<p class="testoform">	{!! Form::label('disponibile', 'Disponibile') !!}</p>
 	{!! Form::text('disponibile', null, ['class' => 'form-control']) !!}
 </div>
 <div class="form-group">
-	<font color="blue">	{!! Form::label('prezzo', 'Prezzo') !!}</font>
+	<p class="testoform">	{!! Form::label('prezzo', 'Prezzo') !!}</p>
 	{!! Form::text('prezzo', null, ['class' => 'form-control']) !!}
 </div>
 <div class="form-group">
-	<font color="blue">	{!! Form::label('categoria', 'Categoria') !!}</font>
+	<p class="testoform">	{!! Form::label('categoria', 'Categoria') !!}</p>
 	{!! Form::text('categoria', null, ['class' => 'form-control']) !!}
 </div>
 <div class="form-group">
-	<font color="blue">	{!! Form::label('immagine', 'Immagine ') !!}</font>
+	<p class="testoform">	{!! Form::label('immagine', 'Immagine ') !!}</p>
 	<?php if (!$create) { ?>
 		<img class="img-responsive img-border-left" src="/images/catalog/{{$article->immagine}}" alt="">
 	<?php } ?>

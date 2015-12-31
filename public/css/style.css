@@ -7,8 +7,57 @@
 	margin:3px;
 	width:150px;
 	height:100px;	
-	
-
 }
+
+.testoform {color:white;font-weight:bold;  font-size:20px}
+
+/* Contenitore */
+.pager {
+  padding-left: 0;
+  margin: 3px 0;
+  text-align: right;
+  list-style: none;
+}
+ 
+/* Colori e bordo dell'item */
+.pager li > a,
+.pager li > span {
+  display: inline-block;
+  padding: 5px 14px;
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  border-radius: 15px;
+}
+ 
+/* Colore di sfondo dell'item sull'hover */
+.pager li > a:hover,
+.pager li > a:focus {
+  text-decoration: none;
+  background-color: #eeeeee;
+}
+ 
+/* Colori e bordo dell'item disabilitato */
+.pager .disabled > a,
+.pager .disabled > a:hover,
+.pager .disabled > a:focus,
+.pager .disabled > span {
+  color: #999999;
+  cursor: not-allowed;
+  background-color: #ffffff;
+}
+
+/* metodo metodo utilizzato nel dettaglio dei prodotti */
+.row2 {
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
+/* metodo utilizzato nella visualizzazione delle foto */
+.row3 {
+  margin-right: 200px;
+  margin-left: 200px;
+  margin-bottom: 20px;
+}
+
 
 

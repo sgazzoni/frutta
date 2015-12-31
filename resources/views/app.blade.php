@@ -17,6 +17,7 @@
 <!-- Custom CSS -->
 <link href="/css/business-casual.css" rel="stylesheet">
 <link href="/css/style.css" rel="stylesheet">
+
 <!-- Fonts -->
 <link
 	href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800"
@@ -36,9 +37,8 @@
 
 <body>
 
-	<div class="brand">Business Casual</div>
-	<div class="address-bar">3481 Melrose Place | Beverly Hills, CA 90210 |
-		123.456.7890</div>
+	<div class="brand">La Cesta Dei Sapori</div>
+	<div class="address-bar">Frutta e Verdura a Km Zero</div>
 
 	<!-- Navigation -->
 	<nav class="navbar navbar-default" role="navigation">
@@ -60,7 +60,7 @@
 				<ul class="nav navbar-nav">
 					<li><a href="/">Home</a></li>
 					<li><a href="{{URL::to('articles')}}">Prodotti</a></li>
-                    <li><a href="{{URL::to('contact')}}">Contact</a></li>
+                    <li><a href="{{URL::to('contact')}}">Contatti</a></li>
 				</ul>
 			</div>
 			<!-- /.navbar-collapse -->
@@ -75,7 +75,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12 text-center">
-					<p>Copyright &copy; Your Website 2015</p>
+					<p>Copyright &copy; Stefano Gazzoni 2015</p>
 				</div>
 			</div>
 		</div>
@@ -90,7 +90,7 @@
 	<!-- Script to Activate the Carousel -->
 	<script>
     $('.carousel').carousel({
-        interval: 4000 //changes the speed
+        interval: 3000 //changes the speed
     })
     </script>
 

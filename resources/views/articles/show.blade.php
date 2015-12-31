@@ -5,7 +5,7 @@
 @stop
 
 @section('content')
-<div class="row">
+<div class="row2">
 	<div class="box" class="prodotto">
 			<img class="img-responsive" style="width:300px;
 	            height:210px;float:left;margin:10px"                      
@@ -14,6 +14,12 @@
 			     <p class="availability in-stock">Prezzo: € <span>{{$article->prezzo}}</span></p>
 			     <p class="availability in-stock">Disponibilità: <span>{{$article->disponibile}}</span></p>
 		<div class="clearfix"></div>
+		
+
+			<ul class="pager">
+		  			<li><a href="{{URL::to('articles')}}">Precedente</a></li>			  		  			  
+			</ul>		
+		
 	</div>
 </div>
 @stop			
