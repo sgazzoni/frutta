@@ -66,9 +66,14 @@ Benvenuto
                     <hr>
                     <img class="img-responsive img-border img-left" src="/img/aq18.jpg" alt="">
                     <hr class="visible-xs">
-                    <p>The boxes used in this template are nested inbetween a normal Bootstrap row and the start of your column layout. The boxes will be full-width boxes, so if you want to make them smaller then you will need to customize.</p>
-                    <p>A huge thanks to <a href="http://join.deathtothestockphoto.com/" target="_blank">Death to the Stock Photo</a> for allowing us to use the beautiful photos that make this template really come to life. When using this template, make sure your photos are decent. Also make sure that the file size on your photos is kept to a minumum to keep load times to a minimum.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc placerat diam quis nisl vestibulum dignissim. In hac habitasse platea dictumst. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+                     <h2 class="intro-text "><strong>La Cesta Dei Sapori,</strong></h2>                   
+                    <p>è una iniziativa nata con lo scopo di dar vita nel territorio romagnolo a una filiera agricola corta, indipendente ed autonoma, attraverso cui i prodotti della terra coltivati in modo biologico ed artigianale, vengono raccolti giorno per giorno e portati direttamente ai clienti freschissimi.</p>
+                     <h2 class="intro-text "><strong>Selezioniamo,</strong></h2> 
+                    <p>i migliori produttori biologici della nostra zona e portiamo direttamente a casa vostra i frutti del loro duro lavoro, del loro impegno e del loro attaccamento ai valori della nostra terra. La consegna a domicilio dei prodotti freschi di giornata permette anche a chi, per motivi di lavoro e di tempo, non riesce a fare la spesa dal proprio “contadino di fiducia” ed è costretto a ricorrere alla grande distribuzione, pur desiderando seguire criteri di genuinità e freschezza degli alimenti.</p>
+                     <h2 class="intro-text "><strong>Vogliamo,</strong></h2> 
+                    <p>con il nostro lavoro, valorizzare ed aiutare chi sceglie oggi la strada dell’agricoltura biologica nel nostro territorio, seguendo i criteri di Stagionalità e “Chilometro Zero”, in modo da ridurre al massimo la filiera e l’impatto ambientale dovuto ai trasporti dei prodotti alimentari.
+						Desideriamo sostenere l’economia locale avvicinando i consumatori alla nostra terra e valorizzando il lavoro ed i luoghi nei quali siamo cresciuti ed ora crescono i nostri figli.
+						Crediamo infine che i rapporti umani siano fondamentali anche nella sfera lavorativa e commerciale, per questo desideriamo che i nostri clienti si sentano seguiti personalmente con cura e affetto</p>                
                 </div>
             </div>
         </div>
@@ -85,7 +90,7 @@ Benvenuto
                     <p> Puoi scegliere tra quattro differenti capienze: 3 Kg, 5 Kg, 7 Kg e 9Kg.</p>
                     <p>Una volta individuata la dimensione della tua cesta ideale, puoi visionare tutti gli ortaggi e i frutti di tutte le stagioni che ti porteremo durante l'anno.</p>
                     <p>Informazioni sul servizio!</p>
-                    <p>La Cesta Dei Sapori,� un servizio di consegna a domicilio, a tua scelta tutte le settimane oppure a richiesta.</p>
+                    <p>La Cesta Dei Sapori, è un servizio di consegna a domicilio, a tua scelta tutte le settimane oppure a richiesta.</p>
                      <p>Pagamento in contanti alla consegna.</p>
                 </div>                
                 <ul class="nav nav-pills">
