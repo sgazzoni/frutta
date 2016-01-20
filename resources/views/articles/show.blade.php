@@ -6,7 +6,7 @@
 
 @section('content')
 <div class="row2">
-	<div class="box" class="prodotto">
+	<div class="box" >
 			<img class="img-responsive" style="width:300px;
 	            height:210px;float:left;margin:10px"                      
 				src="/images/catalog/{{$article->immagine}}" alt="">

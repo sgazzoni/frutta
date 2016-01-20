@@ -52,7 +52,7 @@
 						class="icon-bar"></span>
 				</button>
 				<!-- navbar-brand is hidden on larger screens, but visible when the menu is collapsed -->
-				<a class="navbar-brand" href="index.html">Business Casual</a>
+				<a class="navbar-brand" href="index.html">La Cesta Dei Sapori</a>
 			</div>
 			<!-- Collect the nav links, forms, and other content for toggling -->
 			<div class="collapse navbar-collapse"
@@ -60,7 +60,7 @@
 				<ul class="nav navbar-nav">
 					<li><a href="/">Home</a></li>
 					<li><a href="{{URL::to('articles')}}">Prodotti</a></li>
-                    <li><a href="{{URL::to('contact')}}">Contatti</a></li>
+                    <li><a href="{{URL::to('Contact')}}">Contatti</a></li>
 				</ul>
 			</div>
 			<!-- /.navbar-collapse -->
