@@ -107,7 +107,7 @@ Benvenuto
         <p align="center">Cesta Frutta e Verdura</p>
         <p align="center">(1-2 persone)</p>    
         <p align="center">3 Kg....Euro 15</p>
-        <p align="center"><a class="btn btn-primary" href="{{URL::to('contact')}}" role="button">Richiedi la tua cesta &raquo;</a></p>        
+        <p align="center"><a class="btn btn-primary" href="{{URL::to('Contact')}}" role="button">Richiedi la tua cesta &raquo;</a></p>        
       </div>
     </div>      
   </div>
@@ -118,7 +118,7 @@ Benvenuto
         <p align="center">Cesta Frutta e Verdura</p>
         <p align="center">(1-2 persone)</p>    
         <p align="center">5 Kg....Euro 22</p>
-        <p align="center"><a class="btn btn-primary" href="{{URL::to('contact')}}" role="button">Richiedi la tua cesta &raquo;</a></p>        
+        <p align="center"><a class="btn btn-primary" href="{{URL::to('Contact')}}" role="button">Richiedi la tua cesta &raquo;</a></p>        
       </div>
     </div>    
   </div>  
@@ -129,7 +129,7 @@ Benvenuto
         <p align="center">Cesta Frutta e Verdura</p>
         <p align="center">(2-3 persone)</p>    
         <p align="center">7 Kg....Euro 26</p>
-        <p align="center"><a class="btn btn-primary" href="{{URL::to('contact')}}" role="button">Richiedi la tua cesta &raquo;</a></p>        
+        <p align="center"><a class="btn btn-primary" href="{{URL::to('Contact')}}" role="button">Richiedi la tua cesta &raquo;</a></p>        
 
       </div>
     </div>    
@@ -141,7 +141,7 @@ Benvenuto
         <p align="center">Cesta Frutta e Verdura</p>
         <p align="center">(3-4 persone)</p>    
         <p align="center">9 Kg....Euro 30</p>
-        <p align="center"><a class="btn btn-primary" href="{{URL::to('contact')}}" role="button">Richiedi la tua cesta &raquo;</a></p>        
+        <p align="center"><a class="btn btn-primary" href="{{URL::to('Contact')}}" role="button">Richiedi la tua cesta &raquo;</a></p>        
         
       </div>
     </div>
