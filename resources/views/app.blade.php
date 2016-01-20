@@ -9,7 +9,7 @@
 <meta name="description" content="">
 <meta name="author" content="">
 
-<title>@yield('title')</title>
+<title>@yield('La Cesta Dei Sapori')</title>
 
 <!-- Bootstrap Core CSS -->
 <link href="/css/bootstrap.min.css" rel="stylesheet">
