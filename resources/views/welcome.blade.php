@@ -24,13 +24,13 @@ Benvenuto
 
                             </div>
                             <div class="item">
-                                <img class="img-responsive img-full" src="/img/aq13.jpg" alt="">
+                                <img class="img-responsive img-full" src="/img/aq13.jpg" width="450" height="295" alt="frutta e verdura"> 
                             </div>
                             <div class="item">
-                                <img class="img-responsive img-full" src="/img/aq14.jpg" alt="">
+                                <img class="img-responsive img-full" src="/img/aq14.jpg" width="450" height="300" alt="frutta e verdura"> 
                             </div>
                             <div class="item">
-                                <img class="img-responsive img-full" src="/img/aq15.jpg" alt="">
+                                <img class="img-responsive img-full" src="/img/aq15.jpg" width="450" height="299" alt="frutta e verdura"> 
                             </div>                            
                         </div>
 
@@ -65,7 +65,7 @@ Benvenuto
                     <h2 class="intro-text text-center"><strong>Chi siamo</strong>
                     </h2>
                     <hr>
-                    <img class="img-responsive img-border img-left" src="/img/aq18.jpg" alt="">
+                    <img class="img-responsive img-border img-left" src="/img/aq18.jpg" width="450" height="299" alt="frutta e verdura"> 
                     <hr class="visible-xs">
                      <h2 class="intro-text "><strong>La Cesta Dei Sapori,</strong></h2>                   
                     <p>è una iniziativa nata con lo scopo di dar vita nel territorio romagnolo a una filiera agricola corta, indipendente ed autonoma, attraverso cui i prodotti della terra coltivati in modo biologico ed artigianale, vengono raccolti giorno per giorno e portati direttamente ai clienti freschissimi.</p>
@@ -103,7 +103,7 @@ Benvenuto
  <div class="box">
   <div class="col-sm-6 col-md-3">
     <div class="thumbnail">
-      <img src="/img/cesta2.jpg" alt="...">
+      <img src="/img/cesta2.jpg" width="271" height="180" alt="cesta di frutta e verdura"> 
       <div class="caption">
         <p align="center">Cesta Frutta e Verdura</p>
         <p align="center">(1-2 persone)</p>    
@@ -114,7 +114,7 @@ Benvenuto
   </div>
   <div class="col-sm-6 col-md-3">
     <div class="thumbnail">
-      <img src="/img/cesta2.jpg" alt="...">
+      <img src="/img/cesta2.jpg" width="271" height="180" alt="cesta di frutta e verdura"> 
       <div class="caption">
         <p align="center">Cesta Frutta e Verdura</p>
         <p align="center">(1-2 persone)</p>    
@@ -125,7 +125,7 @@ Benvenuto
   </div>  
   <div class="col-sm-6 col-md-3">
     <div class="thumbnail">
-      <img src="/img/cesta2.jpg" alt="...">
+      <img src="/img/cesta2.jpg" width="271" height="180" alt="cesta di frutta e verdura"> 
       <div class="caption">
         <p align="center">Cesta Frutta e Verdura</p>
         <p align="center">(2-3 persone)</p>    
@@ -137,7 +137,7 @@ Benvenuto
   </div>  
   <div class="col-sm-6 col-md-3"> 
     <div class="thumbnail">
-      <img src="/img/cesta2.jpg" alt="...">
+      <img src="/img/cesta2.jpg" width"271" height="180" alt="cesta di frutta e verdura"> 
       <div class="caption">
         <p align="center">Cesta Frutta e Verdura</p>
         <p align="center">(3-4 persone)</p>    
