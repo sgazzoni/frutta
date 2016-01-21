@@ -20,7 +20,8 @@ Benvenuto
                         <!-- Wrapper for slides -->
                         <div class="carousel-inner">
                             <div class="item active">
-                                <img class="img-responsive img-full" src="/img/aq11.jpg" alt="">
+                                <img class="img-responsive img-full" src="/img/aq11.jpg" width="451" height="300" alt="frutta e verdura">  
+
                             </div>
                             <div class="item">
                                 <img class="img-responsive img-full" src="/img/aq13.jpg" alt="">
